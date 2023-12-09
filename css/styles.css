@@ -34,21 +34,21 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-primary: #116565
+  --bs-secondary: #5280ae;
+  --bs-success: #1a9c5b;
+  --bs-info: #9fccf9;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-light: #e3e3e3;
+  --bs-dark: #292929;
   --bs-primary-rgb: 21, 126, 126;
   --bs-secondary-rgb: 109, 162, 214;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 160, 160, 160;
+  --bs-light-rgb: 180, 180, 180;
   --bs-dark-rgb: 21, 126, 126;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -3107,6 +3107,7 @@ textarea.form-control-lg {
 }
 
 .btn-outline-dark {
+  font-family: "Montserrat Regular" !important;
   --bs-btn-color: #1a9c5b;
   --bs-btn-border-color: #1a9c5b;
   --bs-btn-hover-color: #fff;
@@ -8011,6 +8012,7 @@ textarea.form-control-lg {
 }
 
 .text-decoration-line-through {
+  font-family: "Montserrat Regular" !important;
   text-decoration: line-through !important;
 }
 
@@ -8088,7 +8090,7 @@ textarea.form-control-lg {
 
 .text-white {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-light-rgb)) !important;
 }
 
 .text-body {
